@@ -30,7 +30,7 @@ def main():
     assert analysis_check['all_checks_passed']
     assert analysis_check['selected_vacancies']==verification['selected_vacancies']
     for path,digest in read('evidence/calculation-source-sha256.json').items():
-        assert hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest,path
+        assert hashlib.sha256((ROOT/path).read_bytes().replace(b'\r\n',b'\n')).hexdigest()==digest,path
     pdf=pymupdf.open(ROOT/'output'/'pdf'/'Карташов_Игорь_J3312_MapReduce.pdf')
     assert len(pdf)==12
     for i,page in enumerate(pdf):

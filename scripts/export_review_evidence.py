@@ -61,7 +61,9 @@ def main():
     source_files=['src/vacancy_lab/mapreduce.py','src/vacancy_lab/duckdb_engine.py',
                   'scripts/benchmark.py','scripts/analyze.py','scripts/check_analysis.py',
                   'scripts/verify_results.py','sql/selected.sql','sql/combinations.sql','config.json']
-    hashes={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in source_files}
+    # Git stores text with LF; normalize CRLF for the same hashes after cloning.
+    hashes={name:hashlib.sha256((ROOT/name).read_bytes().replace(b'\r\n',b'\n')).hexdigest()
+            for name in source_files}
     (ROOT/'evidence'/'calculation-source-sha256.json').write_text(json.dumps(hashes,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(output,end='')
 
