@@ -8,5 +8,5 @@
   "independent_salary_and_region_checks": true,
   "mapper_failure_recovered": true,
   "repeated_console_runs_and_s3_readback": true,
-  "pdf_sha256": "103b3cc8b89495760efc5867bdd54dd0078be62e8696d68147dda62d82054721"
+  "pdf_sha256": "c8b5c9d3c3abf83ce29852b19be724f95015efbcd86656ec5ed59c16661235a0"
 }
