@@ -1,6 +1,6 @@
 {
   "method": "mapreduce_optimized",
-  "compute_seconds": 21.121927100000903,
+  "compute_seconds": 17.40448720000859,
   "input_uri": "s3://hh-lake/raw/it_vacancies_2024.csv",
   "input_etag": "\"5d93ef0c42e6ce7b734cc44a89c4f228-102\"",
   "input_bytes": 847619384,
@@ -8,8 +8,8 @@
   "body_read_calls": 809,
   "largest_body_read_bytes": 1048576,
   "rows_read": 229388,
-  "selected_vacancies": 18165,
-  "selected_ids_sha256": "952accefe80fbf7e58e7c46f280deed91f61579f4f9016bf156967c83d4a7aaa",
+  "selected_vacancies": 18164,
+  "selected_ids_sha256": "ce286c888c97673cdb42b671a9593f3e73181eb6c56f1e16fed6fa9f2bf8fe2a",
   "skills_histogram": {
     "0": 6322,
     "1": 1012,
@@ -18,7 +18,7 @@
     "4": 1671,
     "5": 2140,
     "6": 1187,
-    "7": 912,
+    "7": 911,
     "8": 757,
     "9": 432,
     "10": 436,
@@ -44,22 +44,22 @@
     "30": 11
   },
   "emitted_by_stack_size": {
-    "1": 64478,
-    "2": 215004,
-    "3": 632504
+    "1": 64471,
+    "2": 214983,
+    "3": 632469
   },
   "batches": 230,
   "committed_batches": 230,
   "workers": 4,
   "failures": [],
   "unique_by_stack_size": {
-    "1": 2180,
-    "2": 28444,
-    "3": 174615
+    "1": 2178,
+    "2": 28430,
+    "3": 174582
   },
   "results_sha256": {
-    "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
-    "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
-    "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+    "skills_1.csv": "520f2635bffd4b6941aeef59f5dd2192b489c5270f3fcc13c6bc4ebaca68998b",
+    "skills_2.csv": "395e69c74e4515b36b765932f41aef0c5767d04ce67cc7646068a535bbc47b15",
+    "skills_3.csv": "f4beae166db0c2fdb2ee40ad644d6450f9114953a42fdbf43dda8bd6d3af4732"
   }
 }

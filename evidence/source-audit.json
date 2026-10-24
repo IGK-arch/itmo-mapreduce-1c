@@ -1,15 +1,15 @@
 {
-  "time_utc": "2026-10-24T16:26:52.841955+00:00",
+  "time_utc": "2026-10-24T17:05:36.390747+00:00",
   "source_url": "https://drive.google.com/file/d/1rLEu3N2isIBhAkK1EcSJ2482ouOPAots/view",
   "source_bytes": 847619384,
   "source_sha256": "303db922b541e4440906f5a7e8be32fb55e8808f950ffddb8c272f1548212a65",
   "variant": "Программист, разработчик на 1С",
-  "condition": "role = Программист, разработчик; в названии есть 1С/1C и программист/разработчик/developer/programmer; названия с Битрикс/Bitrix исключены",
+  "condition": "role = Программист, разработчик; в названии есть 1С/1C и программист/разработчик/developer/programmer; названия с Битрикс/Bitrix и Java Developer исключены",
   "counts": {
     "input_rows": 229388,
     "name_mentions_1c": 31166,
-    "selected_vacancies": 18165,
-    "selected_with_skills": 11843,
+    "selected_vacancies": 18164,
+    "selected_with_skills": 11842,
     "selected_with_salary": 10964
   },
   "salary_flags": {
@@ -31,7 +31,7 @@
     "4": 1671,
     "5": 2140,
     "6": 1187,
-    "7": 912,
+    "7": 911,
     "8": 757,
     "9": 432,
     "10": 436,

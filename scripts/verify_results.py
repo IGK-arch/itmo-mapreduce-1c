@@ -15,9 +15,11 @@ def main():
     expected_meta = json.loads((reference_path / 'metadata.json').read_text(encoding='utf-8'))
     audit = json.loads((ROOT / 'evidence' / 'source-audit.json').read_text(encoding='utf-8'))
     comparisons = []
-    for directory in sorted((ROOT / 'results').iterdir()):
-        if not (directory / 'metadata.json').is_file():
-            continue
+    labels = [f'{method}-{trial}' for method in ('baseline','optimized','duckdb')
+              for trial in (1,2,3)] + ['mapper-failure']
+    for label in sorted(labels):
+        directory = ROOT / 'results' / label
+        assert (directory / 'metadata.json').is_file(), label
         actual = read_result(directory)
         meta = json.loads((directory / 'metadata.json').read_text(encoding='utf-8'))
         differing = sum(actual.get(key, 0) != reference.get(key, 0) for key in set(actual) | set(reference))

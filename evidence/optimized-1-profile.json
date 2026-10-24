@@ -2,11 +2,11 @@
   "method": "optimized",
   "trial": 1,
   "label": "optimized-1",
-  "time_utc": "2026-10-24T16:30:44.303393+00:00",
-  "wall_seconds": 25.962779500012402,
-  "peak_process_tree_rss_bytes": 279601152,
+  "time_utc": "2026-10-24T17:06:19.761300+00:00",
+  "wall_seconds": 21.0688353000005,
+  "peak_process_tree_rss_bytes": 280727552,
   "sampling_interval_seconds": 0.005,
-  "memory_samples": 715,
+  "memory_samples": 714,
   "maximum_children": 6,
   "exit_code": 0
 }

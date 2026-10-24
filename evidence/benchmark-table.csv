@@ -1,0 +1,10 @@
+Method,Attempt,Wall_s,Peak_RSS_MiB,Exit_code
+baseline,1,24.687,394.9,0
+baseline,2,23.245,392.0,0
+baseline,3,22.891,393.9,0
+optimized,1,21.069,267.7,0
+optimized,2,19.884,267.2,0
+optimized,3,19.155,266.6,0
+duckdb,1,8.635,1467.4,0
+duckdb,2,6.491,1467.9,0
+duckdb,3,6.490,1466.2,0

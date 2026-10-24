@@ -11500,12 +11500,9 @@ skill_1,skill_2,skill_3,count
 1c: предприятие,erp-системы на базе 1с,управление проектами,6
 1c: предприятие,erp-системы на базе 1с,ух,2
 1c: предприятие,erp-системы на базе 1с,хорошая обучаемость,2
-1c: предприятие,git,java,1
 1c: предприятие,git,linux,3
-1c: предприятие,git,maven,1
-1c: предприятие,git,multithread programming,1
 1c: предприятие,git,postgresql,3
-1c: предприятие,git,sql,5
+1c: предприятие,git,sql,4
 1c: предприятие,git,владение 1с,1
 1c: предприятие,git,многозадачность,1
 1c: предприятие,git,обновление конфигурации 1с,8
@@ -11515,7 +11512,6 @@ skill_1,skill_2,skill_3,count
 1c: предприятие,git,принимать решения и за их результаты отвечать самостоятельно,4
 1c: предприятие,git,решение проблем,1
 1c: предприятие,git,создание конфигурации 1с,8
-1c: предприятие,git,удаленная работа,1
 1c: предприятие,git,ух,1
 1c: предприятие,gitlab,jenkins,1
 1c: предприятие,gitlab,linux,1
@@ -11591,10 +11587,6 @@ skill_1,skill_2,skill_3,count
 1c: предприятие,it,программист,1
 1c: предприятие,it,программный код,1
 1c: предприятие,it,работа в условиях многозадачности,1
-1c: предприятие,java,maven,1
-1c: предприятие,java,multithread programming,1
-1c: предприятие,java,sql,1
-1c: предприятие,java,удаленная работа,1
 1c: предприятие,javascript,mysql,1
 1c: предприятие,javascript,xml,1
 1c: предприятие,javascript,опыт работы в команде,1
@@ -11635,9 +11627,6 @@ skill_1,skill_2,skill_3,count
 1c: предприятие,linux,ос windows,2
 1c: предприятие,linux,создание конфигурации 1с,1
 1c: предприятие,linux,субд,2
-1c: предприятие,maven,multithread programming,1
-1c: предприятие,maven,sql,1
-1c: предприятие,maven,удаленная работа,1
 1c: предприятие,mes-планирование,sql,2
 1c: предприятие,mes-планирование,адресное хранение,2
 1c: предприятие,mes-планирование,анализ бизнес показателей,2
@@ -11747,8 +11736,6 @@ skill_1,skill_2,skill_3,count
 1c: предприятие,ms sql server,настройка vps/vds серверов,2
 1c: предприятие,ms sql server,ос windows,2
 1c: предприятие,ms sql server,субд,2
-1c: предприятие,multithread programming,sql,1
-1c: предприятие,multithread programming,удаленная работа,1
 1c: предприятие,mysql,xml,1
 1c: предприятие,mysql,обновление конфигурации 1с,1
 1c: предприятие,mysql,оптимизация запросов,1
@@ -11888,7 +11875,6 @@ skill_1,skill_2,skill_3,count
 1c: предприятие,sql,системное мышление,1
 1c: предприятие,sql,создание конфигурации 1с,6
 1c: предприятие,sql,субд,4
-1c: предприятие,sql,удаленная работа,1
 1c: предприятие,sql,умение работать в условиях многозадачности,2
 1c: предприятие,sql,управление закупками,2
 1c: предприятие,sql,ух,2
@@ -126958,15 +126944,13 @@ git,it,разработка по,1
 git,it,финансы,1
 git,java,javascript,4
 git,java,kotlin,2
-git,java,maven,1
 git,java,mongodb,2
 git,java,ms sql,3
-git,java,multithread programming,1
 git,java,mysql,2
 git,java,php,7
 git,java,postgresql,2
 git,java,python,7
-git,java,sql,28
+git,java,sql,27
 git,java,xml,18
 git,java,аналитическое мышление,1
 git,java,деловое общение,2
@@ -126982,7 +126966,6 @@ git,java,с#,1
 git,java,скд,2
 git,java,способность быстро обучаться,2
 git,java,стажировка,2
-git,java,удаленная работа,1
 git,java,умение работать в коллективе,2
 git,java,эдо,2
 git,javascript,jquery,1
@@ -127094,9 +127077,6 @@ git,linux,субд postgresql,2
 git,linux,тестирование,1
 git,linux,умение разбираться в чужом коде,1
 git,linux,язык программирования 1с,1
-git,maven,multithread programming,1
-git,maven,sql,1
-git,maven,удаленная работа,1
 git,mongodb,mysql,2
 git,mongodb,php,2
 git,mongodb,postgresql,2
@@ -127218,8 +127198,6 @@ git,multitenancy,saas,1
 git,multitenancy,sql,1
 git,multitenancy,английский язык,1
 git,multitenancy,скд,1
-git,multithread programming,sql,1
-git,multithread programming,удаленная работа,1
 git,mysql,php,2
 git,mysql,postgresql,2
 git,mysql,python,2
@@ -127497,7 +127475,6 @@ git,sql,стажировка,2
 git,sql,субд,3
 git,sql,тестирование,2
 git,sql,техническая документация,1
-git,sql,удаленная работа,1
 git,sql,удаленно,1
 git,sql,умение работать в коллективе,2
 git,sql,умение разбираться в чужом коде,1
@@ -131730,9 +131707,6 @@ java,kotlin,скд,2
 java,kotlin,способность быстро обучаться,2
 java,kotlin,умение работать в коллективе,2
 java,kotlin,эдо,2
-java,maven,multithread programming,1
-java,maven,sql,1
-java,maven,удаленная работа,1
 java,mongodb,mysql,2
 java,mongodb,php,2
 java,mongodb,postgresql,2
@@ -131755,8 +131729,6 @@ java,ms sql,аналитическое мышление,1
 java,ms sql,обучение программированию,1
 java,ms sql,с#,1
 java,ms sql,стажировка,2
-java,multithread programming,sql,1
-java,multithread programming,удаленная работа,1
 java,mysql,php,2
 java,mysql,postgresql,2
 java,mysql,python,2
@@ -131855,7 +131827,6 @@ java,sql,скд,2
 java,sql,создание конфигурации 1с,3
 java,sql,способность быстро обучаться,2
 java,sql,стажировка,2
-java,sql,удаленная работа,1
 java,sql,умение работать в коллективе,2
 java,sql,эдо,2
 java,visual basic,информационные технологии,1
@@ -134066,9 +134037,6 @@ mac os,ms visio,работа в команде,2
 mathcad,ms visio,rls,1
 mathcad,ms visio,интеграционные механизмы,1
 mathcad,rls,интеграционные механизмы,1
-maven,multithread programming,sql,1
-maven,multithread programming,удаленная работа,1
-maven,sql,удаленная работа,1
 mes,ms sql,postgresql,2
 mes,ms sql,управление производством,2
 mes,postgresql,управление производством,2
@@ -139139,7 +139107,6 @@ multitenancy,saas,скд,1
 multitenancy,sql,английский язык,1
 multitenancy,sql,скд,1
 multitenancy,английский язык,скд,1
-multithread programming,sql,удаленная работа,1
 my sap erp,sap erp,автоматизация процессов,1
 my sap erp,sap erp,базы данных,1
 my sap erp,sap erp,бухгалтерский учет,1

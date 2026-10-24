@@ -28,6 +28,9 @@ class BoundaryTests(unittest.TestCase):
             ('Консультант 1С', 'Программист, разработчик', False),
             ('Программист 1С-Битрикс', 'Программист, разработчик', False),
             ('Java-разработчик', 'Программист, разработчик', False),
+            ('Java Developer (разработка новой технологии 1С:Предприятие.Элемент)',
+             'Программист, разработчик', False),
+            ('Программист 1С\\Python Junior', 'Программист, разработчик', True),
         ]
         for name, role, expected in cases:
             with self.subTest(name=name):

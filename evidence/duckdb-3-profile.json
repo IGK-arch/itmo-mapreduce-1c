@@ -2,11 +2,11 @@
   "method": "duckdb",
   "trial": 3,
   "label": "duckdb-3",
-  "time_utc": "2026-10-24T16:32:01.221734+00:00",
-  "wall_seconds": 7.671552999992855,
-  "peak_process_tree_rss_bytes": 1539469312,
+  "time_utc": "2026-10-24T17:07:24.596212+00:00",
+  "wall_seconds": 6.490235799996299,
+  "peak_process_tree_rss_bytes": 1537437696,
   "sampling_interval_seconds": 0.005,
-  "memory_samples": 200,
+  "memory_samples": 207,
   "maximum_children": 2,
   "exit_code": 0
 }

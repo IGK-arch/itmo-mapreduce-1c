@@ -1,7 +1,7 @@
 {
   "variant_number": 1,
   "variant_name": "Программист, разработчик на 1С",
-  "variant_condition": "role = Программист, разработчик; в названии есть 1С/1C и программист/разработчик/developer/programmer; названия с Битрикс/Bitrix исключены",
+  "variant_condition": "role = Программист, разработчик; в названии есть 1С/1C и программист/разработчик/developer/programmer; названия с Битрикс/Bitrix и Java Developer исключены",
   "source_url": "https://drive.google.com/file/d/1rLEu3N2isIBhAkK1EcSJ2482ouOPAots/view",
   "source_filename": "it_vacancies_2024.csv",
   "input_key": "raw/it_vacancies_2024.csv",

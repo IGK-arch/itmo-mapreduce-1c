@@ -95,7 +95,8 @@ def main():
                         if salary is not None:regional_pay[(region,group)].append(salary)
     finally:
         text.close();raw.body.close()
-    assert selected==analysis['coverage']['vacancies']==18165
+    audit = json.loads((ROOT/'evidence'/'source-audit.json').read_text(encoding='utf-8'))
+    assert selected==analysis['coverage']['vacancies']==audit['counts']['selected_vacancies']
     assert len(all_pay)==analysis['coverage']['salary_vacancies']==7594
     assert statistics.median(all_pay)==analysis['coverage']['median_salary']==150000
     for group,(total,paid,median) in expected.items():

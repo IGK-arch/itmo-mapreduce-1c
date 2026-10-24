@@ -1280,7 +1280,7 @@ skill_1,skill_2,count
 1c: предприятие,erp systems,3
 1c: предприятие,erp и учетные системы,1
 1c: предприятие,erp-системы на базе 1с,84
-1c: предприятие,git,20
+1c: предприятие,git,19
 1c: предприятие,gitlab,1
 1c: предприятие,html,1
 1c: предприятие,html/css,2
@@ -1289,14 +1289,12 @@ skill_1,skill_2,count
 1c: предприятие,iis,2
 1c: предприятие,internet,1
 1c: предприятие,it,2
-1c: предприятие,java,1
 1c: предприятие,javascript,1
 1c: предприятие,jenkins,2
 1c: предприятие,jira,3
 1c: предприятие,json,2
 1c: предприятие,json api,6
 1c: предприятие,linux,6
-1c: предприятие,maven,1
 1c: предприятие,mes-планирование,2
 1c: предприятие,microsoft access,2
 1c: предприятие,microsoft office excel,3
@@ -1306,7 +1304,6 @@ skill_1,skill_2,count
 1c: предприятие,ms powerpoint,3
 1c: предприятие,ms sql,19
 1c: предприятие,ms sql server,2
-1c: предприятие,multithread programming,1
 1c: предприятие,mysql,3
 1c: предприятие,node.js,3
 1c: предприятие,openvpn,2
@@ -1321,7 +1318,7 @@ skill_1,skill_2,count
 1c: предприятие,retail,1
 1c: предприятие,sap erp,1
 1c: предприятие,soap,4
-1c: предприятие,sql,31
+1c: предприятие,sql,30
 1c: предприятие,sql запросы,5
 1c: предприятие,vanessa-behavior,1
 1c: предприятие,web,6
@@ -1549,7 +1546,7 @@ skill_1,skill_2,count
 1c: предприятие,техническая поддержка пользователей,1
 1c: предприятие,точность и внимательность к деталям,8
 1c: предприятие,уверенный пользователь ms office,1
-1c: предприятие,удаленная работа,39
+1c: предприятие,удаленная работа,38
 1c: предприятие,умение анализировать,1
 1c: предприятие,умение изучать,1
 1c: предприятие,умение общаться с клиентами,1
@@ -15350,7 +15347,7 @@ git,http и web-сервисы,1
 git,http-запросы,3
 git,http-сервисы,4
 git,it,1
-git,java,28
+git,java,27
 git,javascript,9
 git,jenkins,3
 git,jquery,1
@@ -15360,7 +15357,6 @@ git,kafka,1
 git,kotlin,2
 git,less,2
 git,linux,16
-git,maven,1
 git,mongodb,2
 git,ms excel,1
 git,ms outlook,1
@@ -15369,7 +15365,6 @@ git,ms sql,18
 git,ms sql server,6
 git,ms word,1
 git,multitenancy,1
-git,multithread programming,1
 git,mysql,4
 git,nosql,1
 git,onescript,1
@@ -15392,7 +15387,7 @@ git,scrum,14
 git,soap,11
 git,sonarqub,1
 git,sonarqube,5
-git,sql,91
+git,sql,90
 git,tdd,1
 git,teamcity,1
 git,teamleading,3
@@ -15488,7 +15483,6 @@ git,тестирование,2
 git,тестирование пользовательского интерфейса,1
 git,техническая документация,4
 git,типовые конфигурации,2
-git,удаленная работа,1
 git,удаленно,1
 git,умение работать в коллективе,2
 git,умение разбираться в чужом коде,1
@@ -16120,15 +16114,13 @@ itil,техническая поддержка,3
 itsm,naumen sd,1
 java,javascript,5
 java,kotlin,2
-java,maven,1
 java,mongodb,2
 java,ms sql,3
-java,multithread programming,1
 java,mysql,2
 java,php,14
 java,postgresql,2
 java,python,9
-java,sql,42
+java,sql,41
 java,visual basic,1
 java,web сервисы,1
 java,web-сервисы,2
@@ -16178,7 +16170,6 @@ java,создание конфигурации 1с,3
 java,способность быстро обучаться,2
 java,стажировка,2
 java,трудоспособность,2
-java,удаленная работа,1
 java,умение выполнять поставленные задачи в срок,2
 java,умение работать в коллективе,2
 java,формирование пользовательских регламентов,2
@@ -16636,9 +16627,6 @@ mac os,работа в команде,2
 mathcad,ms visio,1
 mathcad,rls,1
 mathcad,интеграционные механизмы,1
-maven,multithread programming,1
-maven,sql,1
-maven,удаленная работа,1
 mes,ms sql,2
 mes,postgresql,2
 mes,wms,2
@@ -17468,8 +17456,6 @@ multitenancy,saas,1
 multitenancy,sql,1
 multitenancy,английский язык,1
 multitenancy,скд,1
-multithread programming,sql,1
-multithread programming,удаленная работа,1
 my sap erp,sap erp,3
 my sap erp,автоматизация процессов,1
 my sap erp,базы данных,1
@@ -18663,7 +18649,7 @@ sql,техническая поддержка пользователей,3
 sql,"типовая конфигурация ут 11, бп 3.0",6
 sql,точность и внимательность к деталям,4
 sql,уверенный пользователь пк (ms office),1
-sql,удаленная работа,8
+sql,удаленная работа,7
 sql,удаленно,1
 sql,умение проверять свою работу,1
 sql,умение работать в дедлайнах,1

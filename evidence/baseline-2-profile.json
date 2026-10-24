@@ -2,11 +2,11 @@
   "method": "baseline",
   "trial": 2,
   "label": "baseline-2",
-  "time_utc": "2026-10-24T16:31:53.534655+00:00",
-  "wall_seconds": 28.611449899995932,
-  "peak_process_tree_rss_bytes": 411545600,
+  "time_utc": "2026-10-24T17:07:18.067738+00:00",
+  "wall_seconds": 23.245145200009574,
+  "peak_process_tree_rss_bytes": 411021312,
   "sampling_interval_seconds": 0.005,
-  "memory_samples": 823,
+  "memory_samples": 818,
   "maximum_children": 6,
   "exit_code": 0
 }

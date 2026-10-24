@@ -1,0 +1,14 @@
+input: s3://hh-lake/raw/it_vacancies_2024.csv
+variant: 1 / Программист, разработчик на 1С
+selected_vacancies: 18164
+MapReduce / DuckDB: full key and frequency comparison
+k=1: total=64471, unique=2178, differences=0
+k=2: total=214983, unique=28430, differences=0
+k=3: total=632469, unique=174582, differences=0
+selected IDs: identical
+verified runs: 9 regular + 1 mapper failure
+mapper exit code: 73; recovered; committed batches: 230/230
+S3 results: 6 objects; full readback: identical
+salary groups independently checked: 37
+regional groups independently checked: 45
+all_checks_passed: true

@@ -17,5 +17,6 @@ FROM read_csv($input_uri, header=true, all_varchar=true, max_line_size=16777216)
 WHERE role = 'Программист, разработчик'
   AND regexp_matches(lower(name), '1[сc]')
   AND regexp_matches(lower(name), 'программист|разработчик|developer|programmer')
-  AND NOT regexp_matches(lower(name), 'битрикс|bitrix');
+  AND NOT regexp_matches(lower(name), 'битрикс|bitrix')
+  AND NOT regexp_matches(lower(name), 'java[[:space:]-]+developer');
 

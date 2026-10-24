@@ -1,8 +1,8 @@
 {
-  "src/vacancy_lab/mapreduce.py": "67ab99680152c9e8e6639ef38b727e4e0a3a309844d189f27313bcfafc9b1cf7",
+  "src/vacancy_lab/mapreduce.py": "b929c60c94d3aab392245ac7e6c06f4e2a518c97172f3df9c53ecdd4767ce8ab",
   "src/vacancy_lab/duckdb_engine.py": "b816a3006a8d7430ae3c80b8d1dfa09de30288bbe1ec9ac9d778f319ab4be93a",
   "scripts/benchmark.py": "d946666347fa48ee8b652432bd94f4f6c72f24ef8ff3972b2b06739097806a11",
-  "sql/selected.sql": "153937f061ea4a06418aa8470f30f408c3a6d01b5cd915ee69af4dbea9232cea",
+  "sql/selected.sql": "0e785e7f51b605e1586fc480b539785d7125ac597c8bb653b61ea078a860aa30",
   "sql/combinations.sql": "6f26300c086ee805936c4f8d4d07e0daa9e630fad50ee476de2ed404f2c3706b",
-  "config.json": "bee7ef04884ce65c32a72f5effb7ccba5b737bcd9a656ac250cbf936d9d0b42e"
+  "config.json": "34ed8b71101015cf029986b646c1260ef9d682aef837ec221acdcf5e6eac10ba"
 }

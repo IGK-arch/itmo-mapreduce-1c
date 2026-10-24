@@ -44,7 +44,7 @@ skill_1,count
 1c: зарплата и управление персоналом,4
 1c: зуп,9
 1c: охрана труда,1
-1c: предприятие,510
+1c: предприятие,509
 1c: предприятие 8.3,4
 1c: розница,1
 1c: строительство,1
@@ -549,7 +549,7 @@ freebsd,1
 frontend dev\,1
 ftp,6
 gherkin,3
-git,227
+git,226
 git lab,2
 github,1
 gitlab,23
@@ -584,7 +584,7 @@ ipo,1
 it,9
 itil,6
 itsm,1
-java,54
+java,53
 java se,1
 javascript,33
 jenkins,9
@@ -607,7 +607,6 @@ linux,68
 lms,4
 mac os,2
 mathcad,1
-maven,1
 mes,4
 mes-планирование,2
 mes-системы,4
@@ -643,7 +642,6 @@ ms windows,1
 ms word,9
 mssql,6
 multitenancy,1
-multithread programming,1
 my sap erp,3
 my sql,1
 mysql,88
@@ -708,7 +706,7 @@ soft skills,1
 software test engineer,1
 sonarqub,1
 sonarqube,11
-sql,806
+sql,805
 sql server,21
 sql server profiler,2
 sql запросы,20
@@ -1999,7 +1997,7 @@ zabbix,4
 уверенный пользователь ms office,1
 уверенный пользователь пк,10
 уверенный пользователь пк (ms office),2
-удаленная работа,197
+удаленная работа,196
 удаленно,3
 удаленное администрирование,6
 "умение ""читать"" чужой код",1

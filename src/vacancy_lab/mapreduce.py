@@ -17,6 +17,7 @@ from .storage import client, read_config
 PROGRAMMER = re.compile(r'программист|разработчик|developer|programmer', re.I)
 ONE_C = re.compile(r'1[сc]', re.I)
 BITRIX = re.compile(r'битрикс|bitrix', re.I)
+JAVA_DEVELOPER = re.compile(r'java[\s-]+developer', re.I)
 
 
 def belongs_to_variant(row: dict) -> bool:
@@ -27,6 +28,7 @@ def belongs_to_variant(row: dict) -> bool:
         and ONE_C.search(name)
         and PROGRAMMER.search(name)
         and not BITRIX.search(name)
+        and not JAVA_DEVELOPER.search(name)
     )
 
 
