@@ -1,20 +1,44 @@
 [
   {
+    "file": "benchmark-runs.jpg",
+    "bytes": 72007,
+    "sha256": "3551df24e0274b870bd1bc98b18f99153bfc5a5f5ad51e2a4b66af1dc13b8ffb",
+    "saved_at_utc": "2026-10-24T17:13:45.132610+00:00"
+  },
+  {
     "file": "csv-properties.jpg",
     "bytes": 69613,
     "sha256": "35bb4191915df636a614464ce6456a6ff9a3cfc913583bc7ea858d07cd07c812",
-    "saved_at_utc": "2026-10-24T16:37:18.100729+00:00"
+    "saved_at_utc": "2026-10-24T17:07:01.204587+00:00"
   },
   {
     "file": "mapreduce-results.jpg",
-    "bytes": 89447,
-    "sha256": "4bd5522fb2ea700142afbe0ac6d7f1107f1aa781cd9b1b20f704c2d41ad285c9",
-    "saved_at_utc": "2026-10-24T16:38:05.042339+00:00"
+    "bytes": 89339,
+    "sha256": "14015c99ed42a8726996be2e551bbb49b24710bbcf5dfb21534fe0c42d08b1db",
+    "saved_at_utc": "2026-10-24T17:10:55.617755+00:00"
   },
   {
     "file": "raw-objects.jpg",
     "bytes": 85098,
     "sha256": "975f9d3c406bfa4b09e1b2eaff6526a996823b3021104641e6323f67b02a1a9d",
     "saved_at_utc": "2026-10-24T16:36:55.976549+00:00"
+  },
+  {
+    "file": "result-checks.jpg",
+    "bytes": 78004,
+    "sha256": "2437d39cca39599e91403b84c0bd20eeaf750e49fd857655f55dfcda4afe4420",
+    "saved_at_utc": "2026-10-24T17:14:12.887953+00:00"
+  },
+  {
+    "file": "skills-preview.jpg",
+    "bytes": 70669,
+    "sha256": "501aaa227b8f3743d8cba25e087f1fb62643f253be48b5f0ff7f01dcc642bcf5",
+    "saved_at_utc": "2026-10-24T17:11:06.800646+00:00"
+  },
+  {
+    "file": "sql-filter.jpg",
+    "bytes": 75870,
+    "sha256": "f8baa16421c55cbceca8845ff590dfbc85be0bca1d9e976a5d39452c5d59ea86",
+    "saved_at_utc": "2026-10-24T17:12:23.184417+00:00"
   }
 ]

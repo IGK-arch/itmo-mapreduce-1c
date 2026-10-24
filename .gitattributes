@@ -6,5 +6,5 @@
 *.txt text eol=lf
 *.ps1 text eol=lf
 *.csv -text
-*.jpg -text
-*.pdf -text
+*.jpg binary
+*.pdf binary

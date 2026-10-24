@@ -55,8 +55,12 @@ def main():
               'all_checks_passed: true']
     output='\n'.join(lines)+'\n'
     (ROOT/'evidence'/'data-checks.txt').write_text(output,encoding='utf-8',newline='\n')
+    analysis=read('results/analysis.json')
+    concise={k:v for k,v in analysis.items() if k!='regional_combinations'}
+    (ROOT/'evidence'/'analysis-output.txt').write_text(json.dumps(concise,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     source_files=['src/vacancy_lab/mapreduce.py','src/vacancy_lab/duckdb_engine.py',
-                  'scripts/benchmark.py','sql/selected.sql','sql/combinations.sql','config.json']
+                  'scripts/benchmark.py','scripts/analyze.py','scripts/check_analysis.py',
+                  'scripts/verify_results.py','sql/selected.sql','sql/combinations.sql','config.json']
     hashes={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest() for name in source_files}
     (ROOT/'evidence'/'calculation-source-sha256.json').write_text(json.dumps(hashes,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(output,end='')

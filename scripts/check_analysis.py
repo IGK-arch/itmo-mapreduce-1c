@@ -33,6 +33,7 @@ def pay(row):
 
 def main():
     cfg = read_config()
+    (ROOT/'evidence'/'analysis-validation.json').write_text('{"all_checks_passed":false,"status":"running"}\n',encoding='utf-8')
     analysis = json.loads((ROOT/'results'/'analysis.json').read_text(encoding='utf-8'))
     expected = {}
     effects = []
@@ -120,6 +121,9 @@ def main():
         without=[p for e,p in group_employers[group] if e!=largest['id']]
         assert len(without)==diagnostic['without_largest_employer']['salary_vacancies']
         assert statistics.median(without)==diagnostic['without_largest_employer']['median_salary']
+        base_without=[p for e,p in group_employers[bases[group]] if e!=largest['id']]
+        assert len(base_without)==diagnostic['base_without_largest_employer']['salary_vacancies'], (group,bases[group],len(base_without),diagnostic['base_without_largest_employer'])
+        assert statistics.median(base_without)==diagnostic['base_without_largest_employer']['median_salary']
     summary={'all_checks_passed':True,'selected_vacancies':selected,'salary_vacancies':len(all_pay),
              'salary_groups_checked':len(expected),'regional_groups_checked':len(regional_expected),
              'source_sha256':raw.digest.hexdigest()}

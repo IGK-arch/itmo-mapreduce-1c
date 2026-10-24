@@ -153,14 +153,14 @@ def main():
                 SELECT count(*) AS salary_vacancies,median(p.salary) AS median_salary
                 FROM selected s JOIN paid p USING(vacancy_key)
                 JOIN job_details d USING(vacancy_key)
-                WHERE p.salary IS NOT NULL AND d.employer_id<>$excluded
+                WHERE p.salary IS NOT NULL AND d.employer_id IS DISTINCT FROM $excluded
                   AND list_has_all(s.skills,$skills)
             """, {'excluded':dominant_id,'skills':skills}))[0]
             base_without = rows_as_dicts(con.execute("""
                 SELECT count(*) AS salary_vacancies,median(p.salary) AS median_salary
                 FROM selected s JOIN paid p USING(vacancy_key)
                 JOIN job_details d USING(vacancy_key)
-                WHERE p.salary IS NOT NULL AND d.employer_id<>$excluded
+                WHERE p.salary IS NOT NULL AND d.employer_id IS DISTINCT FROM $excluded
                   AND list_has_all(s.skills,$skills)
             """, {'excluded':dominant_id,'skills':base_skills}))[0]
             diagnostics.append({'stack_size': int(k), 'direction': direction, 'skills': skills,
@@ -180,7 +180,9 @@ def main():
               'salary_values_below_10000': low_salaries}
     (ROOT / 'results' / 'analysis.json').write_text(json.dumps(result, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     concise = {k: v for k, v in result.items() if k not in ['regional_combinations']}
-    print(json.dumps(concise, ensure_ascii=False, indent=2), flush=True)
+    output = json.dumps(concise, ensure_ascii=False, indent=2)
+    (ROOT / 'evidence' / 'analysis-output.txt').write_text(output+'\n', encoding='utf-8', newline='\n')
+    print(output, flush=True)
     con.close()
 
 

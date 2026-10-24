@@ -1,11 +1,11 @@
 {
   "passed": true,
-  "pages": 10,
-  "unique_screenshots": 2,
-  "visible_source_regions": 4,
+  "pages": 12,
+  "unique_screenshots": 7,
+  "visible_source_regions": 13,
   "all_frequency_tables_equal": true,
   "profiled_runs": 9,
   "independent_salary_and_region_checks": true,
   "mapper_failure_recovered": true,
-  "pdf_sha256": "696a7159323b6a31be43cd32ed363b98e03faeaea9a0e530330c3839c90c653f"
+  "pdf_sha256": "6a324880266cafb5f81c0b44e6a7590ccd10cb9ce718d22b5241a2530c3d71d4"
 }

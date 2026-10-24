@@ -1,6 +1,39 @@
 {
-  "time_utc": "2026-10-24T16:19:42.429567+00:00",
+  "time_utc": "2026-10-24T17:16:03.000101+00:00",
   "bucket": "hh-lake",
-  "objects": [],
-  "count": 0
+  "objects": [
+    {
+      "key": "raw/hh-sample-1000.jsonl",
+      "bytes": 5402691
+    },
+    {
+      "key": "raw/it_vacancies_2024.csv",
+      "bytes": 847619384
+    },
+    {
+      "key": "results/variant-01/duckdb/skills_1.csv",
+      "bytes": 86131
+    },
+    {
+      "key": "results/variant-01/duckdb/skills_2.csv",
+      "bytes": 1951033
+    },
+    {
+      "key": "results/variant-01/duckdb/skills_3.csv",
+      "bytes": 17942846
+    },
+    {
+      "key": "results/variant-01/mapreduce/skills_1.csv",
+      "bytes": 86131
+    },
+    {
+      "key": "results/variant-01/mapreduce/skills_2.csv",
+      "bytes": 1951033
+    },
+    {
+      "key": "results/variant-01/mapreduce/skills_3.csv",
+      "bytes": 17942846
+    }
+  ],
+  "count": 8
 }
