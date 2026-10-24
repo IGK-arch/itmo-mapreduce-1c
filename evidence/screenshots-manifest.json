@@ -40,5 +40,17 @@
     "bytes": 75870,
     "sha256": "f8baa16421c55cbceca8845ff590dfbc85be0bca1d9e976a5d39452c5d59ea86",
     "saved_at_utc": "2026-10-24T17:12:23.184417+00:00"
+  },
+  {
+    "file": "terminal-compute.jpg",
+    "bytes": 89494,
+    "sha256": "af282645f65a886862128fe82f83608b488bf0970289c8e636a2bcbdc9ffb4c0",
+    "saved_at_utc": "2026-10-24T17:31:37.121580+00:00"
+  },
+  {
+    "file": "terminal-verify.jpg",
+    "bytes": 93433,
+    "sha256": "b4f4dab6ef8c1907f79869fe7dba5a084cef9cce7c01857cb7ec01f16e1d2ee4",
+    "saved_at_utc": "2026-10-24T17:32:16.210684+00:00"
   }
 ]

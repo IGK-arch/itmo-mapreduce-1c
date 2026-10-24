@@ -1,0 +1,60 @@
+{
+  "time_utc": "2026-10-24T17:30:55.157116+00:00",
+  "selected_vacancies": 18164,
+  "all_equal": true,
+  "comparisons": [
+    {
+      "stack_size": 1,
+      "checked_keys": 2178,
+      "different_keys": 0
+    },
+    {
+      "stack_size": 2,
+      "checked_keys": 28430,
+      "different_keys": 0
+    },
+    {
+      "stack_size": 3,
+      "checked_keys": 174582,
+      "different_keys": 0
+    }
+  ],
+  "results_in_s3": [
+    {
+      "key": "results/variant-01/mapreduce/skills_1.csv",
+      "bytes": 86131,
+      "sha256": "520f2635bffd4b6941aeef59f5dd2192b489c5270f3fcc13c6bc4ebaca68998b",
+      "readback_matches": true
+    },
+    {
+      "key": "results/variant-01/mapreduce/skills_2.csv",
+      "bytes": 1951033,
+      "sha256": "395e69c74e4515b36b765932f41aef0c5767d04ce67cc7646068a535bbc47b15",
+      "readback_matches": true
+    },
+    {
+      "key": "results/variant-01/mapreduce/skills_3.csv",
+      "bytes": 17942846,
+      "sha256": "f4beae166db0c2fdb2ee40ad644d6450f9114953a42fdbf43dda8bd6d3af4732",
+      "readback_matches": true
+    },
+    {
+      "key": "results/variant-01/duckdb/skills_1.csv",
+      "bytes": 86131,
+      "sha256": "520f2635bffd4b6941aeef59f5dd2192b489c5270f3fcc13c6bc4ebaca68998b",
+      "readback_matches": true
+    },
+    {
+      "key": "results/variant-01/duckdb/skills_2.csv",
+      "bytes": 1951033,
+      "sha256": "395e69c74e4515b36b765932f41aef0c5767d04ce67cc7646068a535bbc47b15",
+      "readback_matches": true
+    },
+    {
+      "key": "results/variant-01/duckdb/skills_3.csv",
+      "bytes": 17942846,
+      "sha256": "f4beae166db0c2fdb2ee40ad644d6450f9114953a42fdbf43dda8bd6d3af4732",
+      "readback_matches": true
+    }
+  ]
+}

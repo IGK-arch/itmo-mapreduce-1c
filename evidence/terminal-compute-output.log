@@ -1,0 +1,20 @@
+VARIANT 1: Программист, разработчик на 1С
+Input: s3://hh-lake/raw/it_vacancies_2024.csv
+
+python scripts/run_counts.py optimized --output results/terminal-mapreduce
+Selected: 18164
+S3: 229388 rows; 847619384 bytes; 809 reads
+Maximum S3 read size: 1 MiB
+k    total combinations    unique combinations
+1                 64471                   2178
+2                214983                  28430
+3                632469                 174582
+Completed successfully.
+
+python scripts/run_counts.py duckdb --output results/terminal-duckdb
+Selected: 18164
+k    total combinations    unique combinations
+1                 64471                   2178
+2                214983                  28430
+3                632469                 174582
+Completed successfully.

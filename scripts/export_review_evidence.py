@@ -60,7 +60,8 @@ def main():
     (ROOT/'evidence'/'analysis-output.txt').write_text(json.dumps(concise,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     source_files=['src/vacancy_lab/mapreduce.py','src/vacancy_lab/duckdb_engine.py',
                   'scripts/benchmark.py','scripts/analyze.py','scripts/check_analysis.py',
-                  'scripts/verify_results.py','sql/selected.sql','sql/combinations.sql','config.json']
+                  'scripts/verify_results.py','scripts/demo_terminal.py','scripts/live_console.py',
+                  'Show-Run.ps1','sql/selected.sql','sql/combinations.sql','config.json']
     # Git stores text with LF; normalize CRLF for the same hashes after cloning.
     hashes={name:hashlib.sha256((ROOT/name).read_bytes().replace(b'\r\n',b'\n')).hexdigest()
             for name in source_files}

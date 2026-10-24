@@ -29,10 +29,18 @@ def main():
     analysis_check=read('evidence/analysis-validation.json')
     assert analysis_check['all_checks_passed']
     assert analysis_check['selected_vacancies']==verification['selected_vacancies']
+    terminal_check=read('evidence/terminal-verification.json')
+    assert terminal_check['all_equal'] and terminal_check['selected_vacancies']==18164
+    assert len(terminal_check['results_in_s3'])==6
+    assert all(r['readback_matches'] for r in terminal_check['results_in_s3'])
+    assert [r['different_keys'] for r in terminal_check['comparisons']]==[0,0,0]
+    sessions=read('evidence/terminal-sessions.json')
+    assert [r['action'] for r in sessions]==['compute','verify']
+    assert all(r['exit_code']==0 for r in sessions)
     for path,digest in read('evidence/calculation-source-sha256.json').items():
         assert hashlib.sha256((ROOT/path).read_bytes().replace(b'\r\n',b'\n')).hexdigest()==digest,path
     pdf=pymupdf.open(ROOT/'output'/'pdf'/'Карташов_Игорь_J3312_MapReduce.pdf')
-    assert len(pdf)==12
+    assert len(pdf)==13
     for i,page in enumerate(pdf):
         assert len(page.get_text())>150
         for block in page.get_text('blocks'):
@@ -45,7 +53,7 @@ def main():
         assert token in text,token
     for old_token in ['18 165','632 504','174 615','205 239']:
         assert old_token not in text,old_token
-    for number in range(1,8):
+    for number in range(1,10):
         assert text.count(f'Рисунок {number}.')==1
     for run in runs:
         assert f"{run['wall_seconds']:.2f}".replace('.',',') in text
@@ -55,12 +63,13 @@ def main():
             for page in pdf for image in page.get_images(full=True)}
     expected={hashlib.sha256((ROOT/'evidence'/'screenshots'/name).read_bytes()).hexdigest()
               for name in ['raw-objects.jpg','mapreduce-results.jpg','csv-properties.jpg',
-                           'sql-filter.jpg','skills-preview.jpg','benchmark-runs.jpg','result-checks.jpg']}
-    assert images==expected and len(images)==7
+                           'sql-filter.jpg','skills-preview.jpg','benchmark-runs.jpg','result-checks.jpg',
+                           'terminal-compute.jpg','terminal-verify.jpg']}
+    assert images==expected and len(images)==9
     manifest=read('evidence/screenshots-manifest.json')
-    assert len(manifest)==7 and {r['sha256'] for r in manifest}==expected
+    assert len(manifest)==9 and {r['sha256'] for r in manifest}==expected
     views=read('evidence/pdf-image-views.json')
-    assert len(views)==13
+    assert len(views)==15
     for i,view in enumerate(views):
         x,y,w,h=view['source_box'];iw,ih=view['source_size']
         assert x>=0 and y>=0 and x+w<=iw and y+h<=ih
@@ -72,9 +81,10 @@ def main():
             if view['source']==other['source']:
                 a,b,c,d=other['source_box']
                 assert min(x+w,a+c)<=max(x,a) or min(y+h,b+d)<=max(y,b)
-    result={'passed':True,'pages':len(pdf),'unique_screenshots':7,'visible_source_regions':13,
+    result={'passed':True,'pages':len(pdf),'unique_screenshots':9,'visible_source_regions':15,
             'all_frequency_tables_equal':True,'profiled_runs':9,
             'independent_salary_and_region_checks':True,'mapper_failure_recovered':True,
+            'repeated_console_runs_and_s3_readback':True,
             'pdf_sha256':hashlib.sha256((ROOT/'output'/'pdf'/'Карташов_Игорь_J3312_MapReduce.pdf').read_bytes()).hexdigest()}
     (ROOT/'evidence'/'final-check.json').write_text(json.dumps(result,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(result,indent=2))

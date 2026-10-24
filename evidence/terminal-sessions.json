@@ -1,0 +1,24 @@
+[
+  {
+    "action": "compute",
+    "command": [
+      "E:\\projects\\Инженерия данных\\lab\\.venv\\Scripts\\python.exe",
+      "E:\\projects\\Инженерия данных\\lab3-mapreduce\\scripts\\demo_terminal.py",
+      "compute"
+    ],
+    "started_at_utc": "2026-10-24T17:30:20.882870+00:00",
+    "finished_at_utc": "2026-10-24T17:30:49.392796+00:00",
+    "exit_code": 0
+  },
+  {
+    "action": "verify",
+    "command": [
+      "E:\\projects\\Инженерия данных\\lab\\.venv\\Scripts\\python.exe",
+      "E:\\projects\\Инженерия данных\\lab3-mapreduce\\scripts\\demo_terminal.py",
+      "verify"
+    ],
+    "started_at_utc": "2026-10-24T17:30:49.393343+00:00",
+    "finished_at_utc": "2026-10-24T17:30:55.351463+00:00",
+    "exit_code": 0
+  }
+]

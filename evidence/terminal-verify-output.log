@@ -1,0 +1,15 @@
+Full MapReduce / DuckDB comparison
+Selected: 18164; selected IDs: identical
+k=1: 2178 keys checked; differences=0
+k=2: 28430 keys checked; differences=0
+k=3: 174582 keys checked; differences=0
+
+S3: full readback of the six stored results
+mapreduce/skills_1.csv: 86131 bytes; SHA-256 matches
+mapreduce/skills_2.csv: 1951033 bytes; SHA-256 matches
+mapreduce/skills_3.csv: 17942846 bytes; SHA-256 matches
+duckdb/skills_1.csv: 86131 bytes; SHA-256 matches
+duckdb/skills_2.csv: 1951033 bytes; SHA-256 matches
+duckdb/skills_3.csv: 17942846 bytes; SHA-256 matches
+
+ALL CHECKS PASSED

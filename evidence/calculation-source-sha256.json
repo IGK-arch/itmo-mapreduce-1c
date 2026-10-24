@@ -5,6 +5,9 @@
   "scripts/analyze.py": "7a139bc6acf02908f4f9d8fc8dc2255220d21a8c9224e6b28d10964ebb1e5078",
   "scripts/check_analysis.py": "8915ab1506baa55f5ff4ec49696054325c4ee1b6aca6c39efbfc1d12c103d5c7",
   "scripts/verify_results.py": "59086c5e7382ae831b0196d827c764a5c5b7b612b2dd67f212909e899f47ca74",
+  "scripts/demo_terminal.py": "100ed4efba034e129a04a567394b2b89f3213efc9f48ab5a0f370a6952f71fae",
+  "scripts/live_console.py": "a16e39c39976b2a04b1528e964f4712d3c3e4105b5022e8c7fe79a44e7c41bd7",
+  "Show-Run.ps1": "93f95166ad7b0d6cddcd18aee5465e878c95a6a0c0eabfd2074a198a5d05118f",
   "sql/selected.sql": "0e785e7f51b605e1586fc480b539785d7125ac597c8bb653b61ea078a860aa30",
   "sql/combinations.sql": "6f26300c086ee805936c4f8d4d07e0daa9e630fad50ee476de2ed404f2c3706b",
   "config.json": "34ed8b71101015cf029986b646c1260ef9d682aef837ec221acdcf5e6eac10ba"
