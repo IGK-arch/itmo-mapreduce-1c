@@ -1,0 +1,750 @@
+{
+  "variant": "Программист, разработчик на 1С",
+  "salary_basis": "RUR, gross=false; midpoint if both bounds, otherwise given bound",
+  "min_salary_support": 20,
+  "coverage": {
+    "vacancies": 18165,
+    "salary_vacancies": 7594,
+    "median_salary": 150000.0,
+    "minimum_salary": 110.0,
+    "maximum_salary": 500000.0
+  },
+  "top_skills": [
+    {
+      "stack_size": 1,
+      "skill_1": "1с программирование",
+      "skill_2": "",
+      "skill_3": "",
+      "vacancies": 9299,
+      "salary_vacancies": 4107,
+      "median_salary": 150000.0
+    },
+    {
+      "stack_size": 1,
+      "skill_1": "1с: предприятие 8",
+      "skill_2": "",
+      "skill_3": "",
+      "vacancies": 4762,
+      "salary_vacancies": 2295,
+      "median_salary": 150000.0
+    },
+    {
+      "stack_size": 1,
+      "skill_1": "1с: бухгалтерия",
+      "skill_2": "",
+      "skill_3": "",
+      "vacancies": 3168,
+      "salary_vacancies": 1487,
+      "median_salary": 150000.0
+    },
+    {
+      "stack_size": 1,
+      "skill_1": "1с: управление торговлей",
+      "skill_2": "",
+      "skill_3": "",
+      "vacancies": 2829,
+      "salary_vacancies": 1489,
+      "median_salary": 150000.0
+    },
+    {
+      "stack_size": 1,
+      "skill_1": "обновление конфигурации 1с",
+      "skill_2": "",
+      "skill_3": "",
+      "vacancies": 2457,
+      "salary_vacancies": 1151,
+      "median_salary": 150000.0
+    },
+    {
+      "stack_size": 1,
+      "skill_1": "erp-системы на базе 1с",
+      "skill_2": "",
+      "skill_3": "",
+      "vacancies": 2287,
+      "salary_vacancies": 823,
+      "median_salary": 180000.0
+    },
+    {
+      "stack_size": 1,
+      "skill_1": "1с: зарплата и управление персоналом",
+      "skill_2": "",
+      "skill_3": "",
+      "vacancies": 2181,
+      "salary_vacancies": 953,
+      "median_salary": 160000.0
+    },
+    {
+      "stack_size": 1,
+      "skill_1": "1с: документооборот",
+      "skill_2": "",
+      "skill_3": "",
+      "vacancies": 2012,
+      "salary_vacancies": 889,
+      "median_salary": 155000.0
+    },
+    {
+      "stack_size": 1,
+      "skill_1": "создание конфигурации 1с",
+      "skill_2": "",
+      "skill_3": "",
+      "vacancies": 1572,
+      "salary_vacancies": 729,
+      "median_salary": 150000.0
+    },
+    {
+      "stack_size": 1,
+      "skill_1": "1с: управление производственным предприятием",
+      "skill_2": "",
+      "skill_3": "",
+      "vacancies": 1321,
+      "salary_vacancies": 545,
+      "median_salary": 155000.0
+    }
+  ],
+  "salary_rankings": {
+    "2": {
+      "higher": [
+        {
+          "stack_size": 2,
+          "skills": "1с программирование + java",
+          "skill_1": "1с программирование",
+          "skill_2": "java",
+          "skill_3": "",
+          "base_skills": "1с программирование",
+          "added_skill": "java",
+          "vacancies": 45,
+          "salary_vacancies": 27,
+          "median_salary": 270000.0,
+          "base_vacancies": 9299,
+          "base_salary_vacancies": 4107,
+          "base_median_salary": 150000.0,
+          "difference_rub": 120000.0,
+          "difference_percent": 80.0
+        },
+        {
+          "stack_size": 2,
+          "skills": "java + sql",
+          "skill_1": "java",
+          "skill_2": "sql",
+          "skill_3": "",
+          "base_skills": "sql",
+          "added_skill": "java",
+          "vacancies": 42,
+          "salary_vacancies": 25,
+          "median_salary": 270000.0,
+          "base_vacancies": 806,
+          "base_salary_vacancies": 368,
+          "base_median_salary": 175000.0,
+          "difference_rub": 95000.0,
+          "difference_percent": 54.285714285714285
+        },
+        {
+          "stack_size": 2,
+          "skills": "git + java",
+          "skill_1": "git",
+          "skill_2": "java",
+          "skill_3": "",
+          "base_skills": "git",
+          "added_skill": "java",
+          "vacancies": 28,
+          "salary_vacancies": 21,
+          "median_salary": 270000.0,
+          "base_vacancies": 227,
+          "base_salary_vacancies": 92,
+          "base_median_salary": 175000.0,
+          "difference_rub": 95000.0,
+          "difference_percent": 54.285714285714285
+        },
+        {
+          "stack_size": 2,
+          "skills": "api + обновление конфигурации 1с",
+          "skill_1": "api",
+          "skill_2": "обновление конфигурации 1с",
+          "skill_3": "",
+          "base_skills": "обновление конфигурации 1с",
+          "added_skill": "api",
+          "vacancies": 35,
+          "salary_vacancies": 22,
+          "median_salary": 242500.0,
+          "base_vacancies": 2457,
+          "base_salary_vacancies": 1151,
+          "base_median_salary": 150000.0,
+          "difference_rub": 92500.0,
+          "difference_percent": 61.666666666666664
+        },
+        {
+          "stack_size": 2,
+          "skills": "1c: бухгалтерия + 1с: розница",
+          "skill_1": "1c: бухгалтерия",
+          "skill_2": "1с: розница",
+          "skill_3": "",
+          "base_skills": "1c: бухгалтерия",
+          "added_skill": "1с: розница",
+          "vacancies": 44,
+          "salary_vacancies": 28,
+          "median_salary": 235200.0,
+          "base_vacancies": 580,
+          "base_salary_vacancies": 255,
+          "base_median_salary": 150000.0,
+          "difference_rub": 85200.0,
+          "difference_percent": 56.8
+        }
+      ],
+      "lower": [
+        {
+          "stack_size": 2,
+          "skills": "erp-системы на базе 1с + работа с базами данных",
+          "skill_1": "erp-системы на базе 1с",
+          "skill_2": "работа с базами данных",
+          "skill_3": "",
+          "base_skills": "erp-системы на базе 1с",
+          "added_skill": "работа с базами данных",
+          "vacancies": 100,
+          "salary_vacancies": 28,
+          "median_salary": 100000.0,
+          "base_vacancies": 2287,
+          "base_salary_vacancies": 823,
+          "base_median_salary": 180000.0,
+          "difference_rub": -80000.0,
+          "difference_percent": -44.44444444444444
+        },
+        {
+          "stack_size": 2,
+          "skills": "1с программирование + ориентация на результат",
+          "skill_1": "1с программирование",
+          "skill_2": "ориентация на результат",
+          "skill_3": "",
+          "base_skills": "1с программирование",
+          "added_skill": "ориентация на результат",
+          "vacancies": 33,
+          "salary_vacancies": 20,
+          "median_salary": 75000.0,
+          "base_vacancies": 9299,
+          "base_salary_vacancies": 4107,
+          "base_median_salary": 150000.0,
+          "difference_rub": -75000.0,
+          "difference_percent": -50.0
+        },
+        {
+          "stack_size": 2,
+          "skills": "алгоритмы + аналитическое мышление",
+          "skill_1": "алгоритмы",
+          "skill_2": "аналитическое мышление",
+          "skill_3": "",
+          "base_skills": "аналитическое мышление",
+          "added_skill": "алгоритмы",
+          "vacancies": 23,
+          "salary_vacancies": 23,
+          "median_salary": 80000.0,
+          "base_vacancies": 586,
+          "base_salary_vacancies": 289,
+          "base_median_salary": 150000.0,
+          "difference_rub": -70000.0,
+          "difference_percent": -46.666666666666664
+        },
+        {
+          "stack_size": 2,
+          "skills": "1с программирование + подключение торгового оборудования к 1с",
+          "skill_1": "1с программирование",
+          "skill_2": "подключение торгового оборудования к 1с",
+          "skill_3": "",
+          "base_skills": "1с программирование",
+          "added_skill": "подключение торгового оборудования к 1с",
+          "vacancies": 34,
+          "salary_vacancies": 23,
+          "median_salary": 90000.0,
+          "base_vacancies": 9299,
+          "base_salary_vacancies": 4107,
+          "base_median_salary": 150000.0,
+          "difference_rub": -60000.0,
+          "difference_percent": -40.0
+        },
+        {
+          "stack_size": 2,
+          "skills": "1с: комплексная автоматизация + базы данных",
+          "skill_1": "1с: комплексная автоматизация",
+          "skill_2": "базы данных",
+          "skill_3": "",
+          "base_skills": "1с: комплексная автоматизация",
+          "added_skill": "базы данных",
+          "vacancies": 37,
+          "salary_vacancies": 24,
+          "median_salary": 102500.0,
+          "base_vacancies": 1088,
+          "base_salary_vacancies": 532,
+          "base_median_salary": 160000.0,
+          "difference_rub": -57500.0,
+          "difference_percent": -35.9375
+        }
+      ],
+      "eligible_combinations": 680
+    },
+    "3": {
+      "higher": [
+        {
+          "stack_size": 3,
+          "skills": "1c: бухгалтерия + 1с: зарплата и управление персоналом + 1с: торговля",
+          "skill_1": "1c: бухгалтерия",
+          "skill_2": "1с: зарплата и управление персоналом",
+          "skill_3": "1с: торговля",
+          "base_skills": "1c: бухгалтерия + 1с: зарплата и управление персоналом",
+          "added_skill": "1с: торговля",
+          "vacancies": 32,
+          "salary_vacancies": 20,
+          "median_salary": 259500.0,
+          "base_vacancies": 286,
+          "base_salary_vacancies": 122,
+          "base_median_salary": 150000.0,
+          "difference_rub": 109500.0,
+          "difference_percent": 73.0
+        },
+        {
+          "stack_size": 3,
+          "skills": "1с программирование + java + sql",
+          "skill_1": "1с программирование",
+          "skill_2": "java",
+          "skill_3": "sql",
+          "base_skills": "1с программирование + sql",
+          "added_skill": "java",
+          "vacancies": 37,
+          "salary_vacancies": 23,
+          "median_salary": 270000.0,
+          "base_vacancies": 651,
+          "base_salary_vacancies": 301,
+          "base_median_salary": 175000.0,
+          "difference_rub": 95000.0,
+          "difference_percent": 54.285714285714285
+        },
+        {
+          "stack_size": 3,
+          "skills": "1с программирование + git + java",
+          "skill_1": "1с программирование",
+          "skill_2": "git",
+          "skill_3": "java",
+          "base_skills": "1с программирование + git",
+          "added_skill": "java",
+          "vacancies": 26,
+          "salary_vacancies": 20,
+          "median_salary": 270000.0,
+          "base_vacancies": 204,
+          "base_salary_vacancies": 86,
+          "base_median_salary": 175000.0,
+          "difference_rub": 95000.0,
+          "difference_percent": 54.285714285714285
+        },
+        {
+          "stack_size": 3,
+          "skills": "1с программирование + api + обновление конфигурации 1с",
+          "skill_1": "1с программирование",
+          "skill_2": "api",
+          "skill_3": "обновление конфигурации 1с",
+          "base_skills": "1с программирование + обновление конфигурации 1с",
+          "added_skill": "api",
+          "vacancies": 30,
+          "salary_vacancies": 22,
+          "median_salary": 242500.0,
+          "base_vacancies": 2186,
+          "base_salary_vacancies": 1038,
+          "base_median_salary": 150000.0,
+          "difference_rub": 92500.0,
+          "difference_percent": 61.666666666666664
+        },
+        {
+          "stack_size": 3,
+          "skills": "1c: бухгалтерия + erp-системы на базе 1с + обновление конфигурации 1с",
+          "skill_1": "1c: бухгалтерия",
+          "skill_2": "erp-системы на базе 1с",
+          "skill_3": "обновление конфигурации 1с",
+          "base_skills": "erp-системы на базе 1с + обновление конфигурации 1с",
+          "added_skill": "1c: бухгалтерия",
+          "vacancies": 39,
+          "salary_vacancies": 20,
+          "median_salary": 270150.0,
+          "base_vacancies": 649,
+          "base_salary_vacancies": 241,
+          "base_median_salary": 180000.0,
+          "difference_rub": 90150.0,
+          "difference_percent": 50.083333333333336
+        }
+      ],
+      "lower": [
+        {
+          "stack_size": 3,
+          "skills": "1с программирование + erp-системы на базе 1с + работа с базами данных",
+          "skill_1": "1с программирование",
+          "skill_2": "erp-системы на базе 1с",
+          "skill_3": "работа с базами данных",
+          "base_skills": "1с программирование + erp-системы на базе 1с",
+          "added_skill": "работа с базами данных",
+          "vacancies": 82,
+          "salary_vacancies": 27,
+          "median_salary": 100000.0,
+          "base_vacancies": 1867,
+          "base_salary_vacancies": 705,
+          "base_median_salary": 180000.0,
+          "difference_rub": -80000.0,
+          "difference_percent": -44.44444444444444
+        },
+        {
+          "stack_size": 3,
+          "skills": "1c: предприятие + 1с: комплексная автоматизация + создание конфигурации 1с",
+          "skill_1": "1c: предприятие",
+          "skill_2": "1с: комплексная автоматизация",
+          "skill_3": "создание конфигурации 1с",
+          "base_skills": "1с: комплексная автоматизация + создание конфигурации 1с",
+          "added_skill": "1c: предприятие",
+          "vacancies": 41,
+          "salary_vacancies": 20,
+          "median_salary": 100000.0,
+          "base_vacancies": 172,
+          "base_salary_vacancies": 80,
+          "base_median_salary": 175000.0,
+          "difference_rub": -75000.0,
+          "difference_percent": -42.857142857142854
+        },
+        {
+          "stack_size": 3,
+          "skills": "1с: предприятие 8 + erp-системы на базе 1с + обучение и развитие",
+          "skill_1": "1с: предприятие 8",
+          "skill_2": "erp-системы на базе 1с",
+          "skill_3": "обучение и развитие",
+          "base_skills": "1с: предприятие 8 + erp-системы на базе 1с",
+          "added_skill": "обучение и развитие",
+          "vacancies": 41,
+          "salary_vacancies": 27,
+          "median_salary": 115000.0,
+          "base_vacancies": 1045,
+          "base_salary_vacancies": 398,
+          "base_median_salary": 182500.0,
+          "difference_rub": -67500.0,
+          "difference_percent": -36.986301369863014
+        },
+        {
+          "stack_size": 3,
+          "skills": "1с программирование + администрирование + обновление конфигурации 1с",
+          "skill_1": "1с программирование",
+          "skill_2": "администрирование",
+          "skill_3": "обновление конфигурации 1с",
+          "base_skills": "1с программирование + обновление конфигурации 1с",
+          "added_skill": "администрирование",
+          "vacancies": 49,
+          "salary_vacancies": 21,
+          "median_salary": 90000.0,
+          "base_vacancies": 2186,
+          "base_salary_vacancies": 1038,
+          "base_median_salary": 150000.0,
+          "difference_rub": -60000.0,
+          "difference_percent": -40.0
+        },
+        {
+          "stack_size": 3,
+          "skills": "1с: бухгалтерия + 1с: документооборот + 1с: торговля",
+          "skill_1": "1с: бухгалтерия",
+          "skill_2": "1с: документооборот",
+          "skill_3": "1с: торговля",
+          "base_skills": "1с: бухгалтерия + 1с: документооборот",
+          "added_skill": "1с: торговля",
+          "vacancies": 50,
+          "salary_vacancies": 36,
+          "median_salary": 110000.0,
+          "base_vacancies": 893,
+          "base_salary_vacancies": 460,
+          "base_median_salary": 160000.0,
+          "difference_rub": -50000.0,
+          "difference_percent": -31.25
+        }
+      ],
+      "eligible_combinations": 1472
+    }
+  },
+  "regions": [
+    "Москва",
+    "Санкт-Петербург",
+    "Екатеринбург"
+  ],
+  "regions_overview": [
+    {
+      "area": "Москва",
+      "vacancies": 5054,
+      "vacancies_with_skills": 3301,
+      "salary_vacancies": 1800,
+      "median_salary": 200000.0
+    },
+    {
+      "area": "Санкт-Петербург",
+      "vacancies": 1641,
+      "vacancies_with_skills": 1111,
+      "salary_vacancies": 688,
+      "median_salary": 175000.0
+    },
+    {
+      "area": "Екатеринбург",
+      "vacancies": 862,
+      "vacancies_with_skills": 582,
+      "salary_vacancies": 493,
+      "median_salary": 150000.0
+    }
+  ],
+  "cohort_diagnostics": [
+    {
+      "stack_size": 2,
+      "direction": "higher",
+      "skills": [
+        "1с программирование",
+        "java"
+      ],
+      "salary_vacancies": 27,
+      "employers": 6,
+      "largest_employers": [
+        {
+          "id": "90597",
+          "name": null,
+          "vacancies": 18
+        },
+        {
+          "id": "608917",
+          "name": null,
+          "vacancies": 3
+        },
+        {
+          "id": "1073798",
+          "name": null,
+          "vacancies": 2
+        }
+      ],
+      "experience_counts": {
+        "От 1 года до 3 лет": 19,
+        "Нет опыта": 7,
+        "От 3 до 6 лет": 1
+      },
+      "region_counts": {
+        "Краснодар": 3,
+        "Санкт-Петербург": 4,
+        "Волжский (Волгоградская область)": 1,
+        "Волгоград": 3,
+        "Пенза": 1,
+        "Москва": 5,
+        "Воронеж": 2,
+        "Екатеринбург": 3,
+        "Самара": 1,
+        "Казань": 1,
+        "Балашиха": 1,
+        "Ростов-на-Дону": 1,
+        "Железнодорожный": 1
+      },
+      "title_examples": [
+        "Ведущий разработчик 1С:ERP",
+        "Стажер-разработчик 1С",
+        "Программист 1С",
+        "Программист-стажер 1С",
+        "Программист 1C"
+      ],
+      "without_largest_employer": {
+        "salary_vacancies": 9,
+        "median_salary": 30000.0
+      },
+      "base_without_largest_employer": {
+        "salary_vacancies": 4081,
+        "median_salary": 150000.0
+      }
+    },
+    {
+      "stack_size": 2,
+      "direction": "lower",
+      "skills": [
+        "erp-системы на базе 1с",
+        "работа с базами данных"
+      ],
+      "salary_vacancies": 28,
+      "employers": 18,
+      "largest_employers": [
+        {
+          "id": "648849",
+          "name": null,
+          "vacancies": 6
+        },
+        {
+          "id": "3280",
+          "name": null,
+          "vacancies": 3
+        },
+        {
+          "id": "924485",
+          "name": null,
+          "vacancies": 2
+        }
+      ],
+      "experience_counts": {
+        "От 1 года до 3 лет": 13,
+        "Более 6 лет": 4,
+        "От 3 до 6 лет": 11
+      },
+      "region_counts": {
+        "Москва": 7,
+        "Владивосток": 1,
+        "Евпатория": 1,
+        "Омск": 1,
+        "Екатеринбург": 5,
+        "Челябинск": 1,
+        "Улан-Удэ": 1,
+        "Самара": 1,
+        "Краснодар": 1,
+        "Рязань": 3,
+        "Казань": 2,
+        "Иркутск": 2,
+        "Вологда": 1,
+        "Йошкар-Ола": 1
+      },
+      "title_examples": [
+        "Программист 1C",
+        "Программист 1С",
+        "Ведущий программист 1C",
+        "Младший программист 1С",
+        "Программист 1С для WMS",
+        "Старший программист 1С"
+      ],
+      "without_largest_employer": {
+        "salary_vacancies": 22,
+        "median_salary": 137500.0
+      },
+      "base_without_largest_employer": {
+        "salary_vacancies": 815,
+        "median_salary": 180000.0
+      }
+    },
+    {
+      "stack_size": 3,
+      "direction": "higher",
+      "skills": [
+        "1c: бухгалтерия",
+        "1с: зарплата и управление персоналом",
+        "1с: торговля"
+      ],
+      "salary_vacancies": 20,
+      "employers": 6,
+      "largest_employers": [
+        {
+          "id": "4652608",
+          "name": null,
+          "vacancies": 14
+        },
+        {
+          "id": "5276303",
+          "name": null,
+          "vacancies": 2
+        },
+        {
+          "id": "719890",
+          "name": null,
+          "vacancies": 1
+        }
+      ],
+      "experience_counts": {
+        "От 3 до 6 лет": 18,
+        "От 1 года до 3 лет": 2
+      },
+      "region_counts": {
+        "Екатеринбург": 1,
+        "Самара": 1,
+        "Тюмень": 1,
+        "Кемерово": 1,
+        "Уфа": 1,
+        "Владимир": 1,
+        "Челябинск": 1,
+        "Ульяновск": 1,
+        "Тула": 1,
+        "Барнаул": 2,
+        "Оренбург": 1,
+        "Тверь": 1,
+        "Ижевск": 1,
+        "Ростов-на-Дону": 1,
+        "Москва": 2,
+        "Белгород": 1,
+        "Красноярск": 2
+      },
+      "title_examples": [
+        "Программист-разработчик 1С (удаленно)",
+        "Программист-разработчик 1С",
+        "Программист 1С (офис)",
+        "Ведущий программист 1C (Middle, Senior)",
+        "Ведущий программист 1С: ERP",
+        "Главный программист 1С",
+        "Программист 1С"
+      ],
+      "without_largest_employer": {
+        "salary_vacancies": 6,
+        "median_salary": 250000.0
+      },
+      "base_without_largest_employer": {
+        "salary_vacancies": 108,
+        "median_salary": 150000.0
+      }
+    },
+    {
+      "stack_size": 3,
+      "direction": "lower",
+      "skills": [
+        "1с программирование",
+        "erp-системы на базе 1с",
+        "работа с базами данных"
+      ],
+      "salary_vacancies": 27,
+      "employers": 17,
+      "largest_employers": [
+        {
+          "id": "648849",
+          "name": null,
+          "vacancies": 6
+        },
+        {
+          "id": "3280",
+          "name": null,
+          "vacancies": 3
+        },
+        {
+          "id": "924485",
+          "name": null,
+          "vacancies": 2
+        }
+      ],
+      "experience_counts": {
+        "От 1 года до 3 лет": 13,
+        "Более 6 лет": 4,
+        "От 3 до 6 лет": 10
+      },
+      "region_counts": {
+        "Москва": 6,
+        "Владивосток": 1,
+        "Евпатория": 1,
+        "Омск": 1,
+        "Екатеринбург": 5,
+        "Челябинск": 1,
+        "Улан-Удэ": 1,
+        "Самара": 1,
+        "Краснодар": 1,
+        "Рязань": 3,
+        "Казань": 2,
+        "Иркутск": 2,
+        "Вологда": 1,
+        "Йошкар-Ола": 1
+      },
+      "title_examples": [
+        "Программист 1C",
+        "Программист 1С",
+        "Ведущий программист 1C",
+        "Младший программист 1С",
+        "Программист 1С для WMS",
+        "Старший программист 1С"
+      ],
+      "without_largest_employer": {
+        "salary_vacancies": 21,
+        "median_salary": 125000.0
+      },
+      "base_without_largest_employer": {
+        "salary_vacancies": 698,
+        "median_salary": 180000.0
+      }
+    }
+  ],
+  "salary_values_below_10000": 7
+}

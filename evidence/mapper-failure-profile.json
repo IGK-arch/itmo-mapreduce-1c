@@ -1,0 +1,12 @@
+{
+  "method": "optimized",
+  "trial": 1,
+  "label": "mapper-failure",
+  "time_utc": "2026-10-24T16:33:18.698940+00:00",
+  "wall_seconds": 24.960010500013595,
+  "peak_process_tree_rss_bytes": 280252416,
+  "sampling_interval_seconds": 0.005,
+  "memory_samples": 746,
+  "maximum_children": 6,
+  "exit_code": 0
+}

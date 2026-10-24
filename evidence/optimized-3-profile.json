@@ -1,0 +1,12 @@
+{
+  "method": "optimized",
+  "trial": 3,
+  "label": "optimized-3",
+  "time_utc": "2026-10-24T16:32:53.451895+00:00",
+  "wall_seconds": 23.853036300002714,
+  "peak_process_tree_rss_bytes": 282144768,
+  "sampling_interval_seconds": 0.005,
+  "memory_samples": 697,
+  "maximum_children": 6,
+  "exit_code": 0
+}

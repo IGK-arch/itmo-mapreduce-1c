@@ -1,0 +1,20 @@
+[
+  {
+    "file": "csv-properties.jpg",
+    "bytes": 69613,
+    "sha256": "35bb4191915df636a614464ce6456a6ff9a3cfc913583bc7ea858d07cd07c812",
+    "saved_at_utc": "2026-10-24T16:37:18.100729+00:00"
+  },
+  {
+    "file": "mapreduce-results.jpg",
+    "bytes": 89447,
+    "sha256": "4bd5522fb2ea700142afbe0ac6d7f1107f1aa781cd9b1b20f704c2d41ad285c9",
+    "saved_at_utc": "2026-10-24T16:38:05.042339+00:00"
+  },
+  {
+    "file": "raw-objects.jpg",
+    "bytes": 85098,
+    "sha256": "975f9d3c406bfa4b09e1b2eaff6526a996823b3021104641e6323f67b02a1a9d",
+    "saved_at_utc": "2026-10-24T16:36:55.976549+00:00"
+  }
+]

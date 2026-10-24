@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.sql text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.ps1 text eol=lf
+*.csv -text
+*.jpg -text
+*.pdf -text

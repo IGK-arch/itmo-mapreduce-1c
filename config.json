@@ -1,0 +1,20 @@
+{
+  "variant_number": 1,
+  "variant_name": "Программист, разработчик на 1С",
+  "variant_condition": "role = Программист, разработчик; в названии есть 1С/1C и программист/разработчик/developer/programmer; названия с Битрикс/Bitrix исключены",
+  "source_url": "https://drive.google.com/file/d/1rLEu3N2isIBhAkK1EcSJ2482ouOPAots/view",
+  "source_filename": "it_vacancies_2024.csv",
+  "input_key": "raw/it_vacancies_2024.csv",
+  "bucket": "hh-lake",
+  "endpoint_url": "http://127.0.0.1:9000",
+  "region": "us-east-1",
+  "chunk_bytes": 1048576,
+  "stack_sizes": [1, 2, 3],
+  "profiling_repeats": 3,
+  "analysis_regions": [],
+  "workers": 4,
+  "batch_rows": 1000,
+  "min_salary_support": 20,
+  "json_sample_size": 1000,
+  "random_seed": 42
+}

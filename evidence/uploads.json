@@ -1,0 +1,18 @@
+[
+  {
+    "bucket": "hh-lake",
+    "key": "raw/it_vacancies_2024.csv",
+    "bytes": 847619384,
+    "ETag": "\"5d93ef0c42e6ce7b734cc44a89c4f228-102\"",
+    "sha256": "303db922b541e4440906f5a7e8be32fb55e8808f950ffddb8c272f1548212a65",
+    "HTTP": 200
+  },
+  {
+    "bucket": "hh-lake",
+    "key": "raw/hh-sample-1000.jsonl",
+    "bytes": 5402691,
+    "ETag": "\"176eb4107e42d04b204c06f4e879ec17\"",
+    "sha256": "2b3a40c6fd6a6ad1b0f1e6412be769674386c0fafe0386f8e842da3497549c0e",
+    "HTTP": 200
+  }
+]

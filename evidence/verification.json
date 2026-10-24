@@ -1,0 +1,180 @@
+{
+  "all_equal": true,
+  "compared_runs": 12,
+  "comparisons": [
+    {
+      "run": "baseline-1",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "baseline-2",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "baseline-3",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "duckdb-1",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "duckdb-2",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "duckdb-3",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "mapper-failure",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "optimized-1",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "optimized-2",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "optimized-3",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "smoke-duckdb",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    },
+    {
+      "run": "smoke-optimized",
+      "different_keys": 0,
+      "selected_ids_match": true,
+      "result_sha256": {
+        "skills_1.csv": "b7f7161185ec9605780f098171774c85885ced6859fb15f0c1ed39eb73e3b80e",
+        "skills_2.csv": "e8d0998a7ce9b3a100f9f2cf37f653365d43d57a3504c36598eec86fc011bea5",
+        "skills_3.csv": "67eea57d3aee6f0311e670dd7865f59099d6ad6db3e10730a431e21eb06c4e8a"
+      }
+    }
+  ],
+  "selected_vacancies": 18165,
+  "growth": [
+    {
+      "stack_size": 1,
+      "emitted_combinations": 64478,
+      "unique_combinations": 2180,
+      "sum_choose_n_k": 64478
+    },
+    {
+      "stack_size": 2,
+      "emitted_combinations": 215004,
+      "unique_combinations": 28444,
+      "sum_choose_n_k": 215004
+    },
+    {
+      "stack_size": 3,
+      "emitted_combinations": 632504,
+      "unique_combinations": 174615,
+      "sum_choose_n_k": 632504
+    }
+  ],
+  "mapper_failure_recovered": true,
+  "results_in_s3": [
+    {
+      "key": "results/variant-01/mapreduce/skills_1.csv",
+      "bytes": 86165,
+      "readback_matches": true
+    },
+    {
+      "key": "results/variant-01/mapreduce/skills_2.csv",
+      "bytes": 1951490,
+      "readback_matches": true
+    },
+    {
+      "key": "results/variant-01/mapreduce/skills_3.csv",
+      "bytes": 17944394,
+      "readback_matches": true
+    },
+    {
+      "key": "results/variant-01/duckdb/skills_1.csv",
+      "bytes": 86165,
+      "readback_matches": true
+    },
+    {
+      "key": "results/variant-01/duckdb/skills_2.csv",
+      "bytes": 1951490,
+      "readback_matches": true
+    },
+    {
+      "key": "results/variant-01/duckdb/skills_3.csv",
+      "bytes": 17944394,
+      "readback_matches": true
+    }
+  ]
+}

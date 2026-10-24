@@ -1,0 +1,26 @@
+{
+  "time_utc": "2026-10-24T16:38:26.790628+00:00",
+  "python": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "cpu_name": "AMD Ryzen 7 7840H with Radeon 780M Graphics",
+  "physical_cpu_cores": 8,
+  "logical_cpu_count": 16,
+  "total_ram_bytes": 33492422656,
+  "versions": {
+    "boto3": "1.43.118",
+    "duckdb": "2.0.0",
+    "psutil": "7.2.2"
+  },
+  "previous_csv_columns": [
+    "vacid",
+    "id",
+    "name",
+    "specializations.id",
+    "area.id",
+    "published_at",
+    "key_skills"
+  ],
+  "previous_csv_has_salary": false,
+  "variant_configured": true,
+  "bucket": "hh-lake"
+}

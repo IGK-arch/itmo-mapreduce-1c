@@ -1,0 +1,12 @@
+{
+  "method": "duckdb",
+  "trial": 1,
+  "label": "duckdb-1",
+  "time_utc": "2026-10-24T16:30:53.104641+00:00",
+  "wall_seconds": 8.784393300011288,
+  "peak_process_tree_rss_bytes": 1540268032,
+  "sampling_interval_seconds": 0.005,
+  "memory_samples": 216,
+  "maximum_children": 2,
+  "exit_code": 0
+}
